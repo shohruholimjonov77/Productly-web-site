@@ -1,0 +1,11 @@
+@mixin ul-list {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

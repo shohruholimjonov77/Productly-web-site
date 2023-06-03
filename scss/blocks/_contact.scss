@@ -1,0 +1,110 @@
+.contact__description {
+    background: #FFEEE1;
+}
+
+.contact__inner {
+    @include flexbox;
+    padding-bottom: 82px;
+    margin-bottom: 59px;
+}
+
+.contact__title {
+    padding-top: 62px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #2F281E;
+}
+
+.contact__text {
+    width: 528px;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.contact__link {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.contact__img {
+    border-radius: 50%;
+    padding-right: 11px;
+}
+
+.contact__link {
+    padding-top: 33px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.contact__link:last-child {
+    padding-top: 19px;
+}
+
+.contact__forms {
+    width: 580px;
+    padding-top: 110px;
+}
+
+.contact__input {
+    border-color: transparent;
+    outline: none;
+    width: 280px;
+    padding: 10px 23px 9px 21px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.contact__input[type=text] {
+    margin-right: 15px;
+}
+
+.contact__input[type=text]:focus {
+    border: 3px solid #ffff00;
+}
+
+.contact__input[type=email]:focus {
+    border: 3px solid #ff0000;
+  }
+
+.contact__textarea {
+    width: 577px;
+    height: 160px;
+    border-color: transparent;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding: 10px 0 0 21px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact__btn {
+    border-color: transparent;
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 11px 25px 11px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact__btn:hover {
+    opacity: 0.8;
+}
+
+.contact__btn:active {
+    opacity: 0.6;
+}

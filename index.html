@@ -4,12 +4,336 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Productly</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
-    
+    <!-- Start header section -->
+    <header class="site-header">
+        <div class="header">
+            <div class="container">
+                <div class="header__intro">
+                    <div class="header__inner">
+                        <a href="index.html">
+                            <img  class="header__image" src="./images/logo.svg" alt="This is my site logo" width="191" height="32">
+                            <nav class="header__navbar">
+                                <ul class="header__list">
+                                    <li class="header__item">
+                                        <a class="header__link" href="#">Home</a>
+                                    </li>
+                                    <li class="header__item">
+                                        <a class="header__link" href="#">Services</a>
+                                    </li>
+                                    <li class="header__item">
+                                        <a class="header__link" href="#">About</a>
+                                    </li>
+                                    <li class="header__item">
+                                        <a class="header__link link" href="#">Product</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="header__login login">
+                                <a class="login__link" href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AG7eRGAC9XSlgC4JLv0BE1VWI5xzlJCMiWtPVOvTsqcjlYdmnLUpsPRGw9TIW4-T&checkConnection=youtube%3A398%3A0&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fprogrammatic_auth%3Fclient_id%3D1070009224336-sdh77n7uot3oc99ais00jmuft6sk2fg9.apps.googleusercontent.com%26scope%3Dhttps%3A%2F%2Fwww.google.com%2Faccounts%2FOAuthLogin%26access_type%3Doffline%26set_oauth_token_cookie%3Dtrue%26from_login%3D1%26as%3D7fuHFfbUX6Z-djt7wM9sgERHF4ARC6KRSaz1X3Se6-Y&dsh=S-1962248305%3A1685609532998029&faa=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fprogrammatic_auth%3Fclient_id%3D1070009224336-sdh77n7uot3oc99ais00jmuft6sk2fg9.apps.googleusercontent.com%26scope%3Dhttps%3A%2F%2Fwww.google.com%2Faccounts%2FOAuthLogin%26access_type%3Doffline%26set_oauth_token_cookie%3Dtrue%26from_login%3D1%26as%3D7fuHFfbUX6Z-djt7wM9sgERHF4ARC6KRSaz1X3Se6-Y&ifkv=Af_xneH-DMQGp5pU331jw4_F5qdUIcWQhir_JFQSx_ggu3wEbwGR9e8CkR_RVBkFkO1JJ0JnVkrz&ltmpl=embedded&oauth=1&pstMsg=1&sarp=1&scc=1&authuser=0" target="blank">Sign In</a>
+                                <a class="active" href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AG7eRGAC9XSlgC4JLv0BE1VWI5xzlJCMiWtPVOvTsqcjlYdmnLUpsPRGw9TIW4-T&checkConnection=youtube%3A398%3A0&checkedDomains=youtube&cid=1&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fprogrammatic_auth%3Fclient_id%3D1070009224336-sdh77n7uot3oc99ais00jmuft6sk2fg9.apps.googleusercontent.com%26scope%3Dhttps%3A%2F%2Fwww.google.com%2Faccounts%2FOAuthLogin%26access_type%3Doffline%26set_oauth_token_cookie%3Dtrue%26from_login%3D1%26as%3D7fuHFfbUX6Z-djt7wM9sgERHF4ARC6KRSaz1X3Se6-Y&dsh=S-1962248305%3A1685609532998029&faa=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fprogrammatic_auth%3Fclient_id%3D1070009224336-sdh77n7uot3oc99ais00jmuft6sk2fg9.apps.googleusercontent.com%26scope%3Dhttps%3A%2F%2Fwww.google.com%2Faccounts%2FOAuthLogin%26access_type%3Doffline%26set_oauth_token_cookie%3Dtrue%26from_login%3D1%26as%3D7fuHFfbUX6Z-djt7wM9sgERHF4ARC6KRSaz1X3Se6-Y&ifkv=Af_xneH-DMQGp5pU331jw4_F5qdUIcWQhir_JFQSx_ggu3wEbwGR9e8CkR_RVBkFkO1JJ0JnVkrz&ltmpl=embedded&oauth=1&pstMsg=1&sarp=1&scc=1&authuser=0" target="blank">Sign Up</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__hero hero">
+                <div class="hero__description">
+                    <div class="hero__desc">
+                        <h1 class="hero__title">The Design Thinking superpowers</h1>
+                        <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                    </div>
+                    <div class="hero__social">
+                        <a class="hero__link" href="#">Get started</a>
+                        <a class="hero__video" href="https://youtu.be/tDwHIu5GVXk" target="blank"><img class="hero__pic" src="./images/video.svg">Watch the Video</a>
+                    </div>
+                </div>
+                <div class="hero__image"><p class="hero__paragraph">.</p></div>
+            </div>
+        </div>
+    </header>
+    <!-- End header section -->
 
+    <!-- Start main section -->
+    <main class="main">
+        <section class="main__design design">
+            <div class="container">
+                <div class="design__description">
+                    <h2 class="design__title">We design tools  to unveil your superpowers</h2>
+                </div>
+                <div class="design__cards">
+                    <ul class="design__list">
+                        <li class="design__item">
+                            <a href="#" class="design__link">
+                                <img class="design__img" src="./images/first-icon.svg" alt="This is first icon" width="55" height="50">
+                                <h3 class="design__desc">First click tests</h3>
+                                <p class="design__text">While most people enjoy casino gambling.</p>
+                            </a>
+                        </li>
+                        <li class="design__item">
+                            <a href="#" class="design__link">
+                                <img class="design__img" src="./images/second-icon.svg" alt="This is second icon" width="55" height="50">
+                                <h3 class="design__desc">Design surveys</h3>
+                                <p class="design__text">Sports betting, lottery and bingo playing for the fun.</p>
+                            </a>
+                        </li>
+                        <li class="design__item">
+                            <a href="#" class="design__link">
+                                <img class="design__img" src="./images/third-icon.svg" alt="This is third icon" width="55" height="50">
+                                <h3 class="design__desc">Preference tests</h3>
+                                <p class="design__text">The Myspace page defines the individual.</p>
+                            </a>
+                        </li>
+                        <li class="design__item">
+                            <a href="#" class="design__link">
+                                <img class="design__img" src="./images/fourth-icon.svg" alt="This is fourth icon" width="55" height="50">
+                                <h3 class="design__desc">Five second tests</h3>
+                                <p class="design__text">Personal choices and the overall personality of the person.</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="design__loging">
+                        <a class="design__login" href="https://www.instagram.com/accounts/login/" target="blank">Sign Up now</a>
+                        <p class="design__paragraph">.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__marketing marketing">
+            <div class="container">
+                <div class="marketing__description">
+                    <h2 class="marketing__title">Marketing Strategies</h2>
+                    <p class="marketing__text">Join 40,000+ other marketers and get proven strategies on email marketing</p>
+                </div>
+                <div class="marketing__links">
+                    <a id="marketing__link" class="marketing__active__link" href="#info__link">All</a>
+                    <a id="marketing__link" class="marketing__link" href="#info__link">Art</a>
+                    <a id="marketing__link" class="marketing__link" href="#info__link">Culture</a>
+                    <a id="marketing__link" class="marketing__link marketing__active" href="#info__link">Design</a>
+                </div>
+                <div class="marketing__information">
+                    <div class="marketing__info info">
+                        <ul class="info__list">
+                            <li class="info__item">
+                                <img src="./images/first-image.png" alt="This is first image" width="377" height="200">
+                                <h3 class="info__title">Increasing Prosperity With Positive Thinking</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Art</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Design</a>
+                                </div>
+                            </li>
+                            <li class="info__item">
+                                <img src="./images/second-image.png" alt="This is second image" width="377" height="200">
+                                <h3 class="info__title">Motivation Is The First Step To Success</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Culture</a>
+                                </div>
+                            </li>
+                            <li class="info__item">
+                                <img src="./images/third-image.png" alt="This is third image" width="377" height="200">
+                                <h3 class="info__title info__desc">Success Steps For Your Personal Or Business Life</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Culture</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Design</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Art</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="info__list">
+                            <li class="info__item">
+                                <img src="./images/fourth-image.png" alt="This is fourth image" width="787" height="200">
+                                <h3 class="info__title info__active">Success Steps For Your Personal Or Business Life Plus Funny Image on the Back</h3>
+                                <div class="info__links active__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Culture</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Design</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Art</a>
+                                </div>
+                            </li>
+                            <li class="info__item">
+                                <img src="./images/fifth-image.png" alt="This is fifth image" width="377" height="200">
+                                <h3 class="info__title">Increasing Prosperity With Positive Thinking</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Culture</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="info__list">
+                            <li class="info__item">
+                                <img src="./images/first-image.png" alt="This is first image" width="377" height="200">
+                                <h3 class="info__title">Increasing Prosperity With Positive Thinking</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Art</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Design</a>
+                                </div>
+                            </li>
+                            <li class="info__item">
+                                <img src="./images/second-image.png" alt="This is second image" width="377" height="200">
+                                <h3 class="info__title">Motivation Is The First Step To Success</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Culture</a>
+                                </div>
+                            </li>
+                            <li class="info__item">
+                                <img src="./images/third-image.png" alt="This is third image" width="377" height="200">
+                                <h3 class="info__title">Success Steps For Your Personal Or Business Life</h3>
+                                <div class="info__links">
+                                    <a id="info__link" href="#marketing__link" class="info__link">Culture</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Design</a>
+                                    <a id="info__link" href="#marketing__link" class="info__link">Art</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__about about">
+            <div class="container">
+                <div class="about__desc">
+                    <h2 class="about__title">About Us</h2>
+                    <p class="about__text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+                </div>
+                <div class="about__clients client">
+                    <ul class="client__list">
+                        <li class="client__item">
+                            <div class="client__desc">
+                                <h3 class="client__title">Kathy Rosenberg</h3>
+                                <p class="client__text">Kathy Rosenberg</p>
+                                <a class="client__link" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+                            </div>
+                            <div class="client__image">
+                                <img class="client__img" src="./images/first-client.svg" alt="This is first client img">
+                            </div>
+                        </li>
+                        <li class="client__item">
+                            <div class="client__desc">
+                                <h3 class="client__title">Alexandra Boyarskaya</h3>
+                                <p class="client__text">Support Marketing Specialist</p>
+                                <a class="client__link" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+                            </div>
+                            <div class="client__image">
+                                <img class="client__img" src="./images/second-client.svg" alt="This is second client img">
+                            </div>
+                        </li>
+                        <li class="client__item">
+                            <div class="client__desc">
+                                <h3 class="client__title">Melani Amini</h3>
+                                <p class="client__text">Photographer</p>
+                                <a class="client__link" href="mailto:melania@gmail.com">melania@gmail.com</a>
+                            </div>
+                            <div class="client__image">
+                                <img class="client__img" src="./images/third-client.svg" alt="This is third client img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main__contact contact">
+            <div class="contact__description">
+                <div class="container">
+                    <div class="contact__inner">
+                        <div class="contact__desc">
+                            <h2 id="contact__title" class="contact__title">Contact Us</h2>
+                            <p class="contact__text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+                            <a class="contact__link" href="tel:+375 (22) 345-00-99">
+                                <img class="contact__img" src="./images/icon-phone.jpg" alt="This is phone icon" width="50" height="50">+375 (22) 345-00-99
+                            </a>
+                            <a class="contact__link" href="mailto:emailname@gmail.com">
+                                <img class="contact__img" src="./images/icon-mail.jpg" alt="This is mail icon" width="50" height="50">emailname@gmail.com
+                            </a>
+                        </div>
+                        <div class="contact__forms">
+                            <form method="get">
+                                <input class="contact__input" type="text" placeholder="Your name">
+                                <input class="contact__input" type="email" placeholder="Your email">
+                                <textarea class="contact__textarea" name="productly" id="productly" cols="50" rows="6" placeholder="What do you want to ask?"></textarea>
+                                <button class="contact__btn" type="submit" required>Send</button>
+                            </form>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End main section -->
+
+    <!-- Start footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="./images/logo.svg" alt="This is footer logo" width="198" height="32">
+                </div>
+                <div class="footer__links">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <strong id="footer__title" class="footer__title">
+                                <a class="title__link" href="#footer__title">Quick Links</a>
+                            </strong>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Contact</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">FAQ</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <strong class="footer__title">
+                                <a class="title__link" href="#footer__title">Legal Stuff</a>
+                            </strong>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Disclaimer</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Financing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Privacy Policy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Terms of Service</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list footer__active">
+                        <li class="footer__item">
+                            <strong class="footer__title">
+                                <a class="title__link" href="#footer__title">Quick Links</a>
+                            </strong>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">Contact</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#footer__title">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer section -->
 </body>
 </html>

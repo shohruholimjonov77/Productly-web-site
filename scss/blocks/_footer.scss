@@ -1,0 +1,45 @@
+.footer__inner {
+    display: flex;
+}
+
+.footer__logo {
+    padding-top: 3px;
+    padding-right: 151px;
+}
+
+.footer__links {
+    @include flexbox;
+}
+
+.footer__list {
+    list-style-type: none;
+    padding-right: 146px;
+}
+
+.footer__active {
+    padding: 0;
+}
+
+.footer__link {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+
+.footer__link:hover {
+    color: #FF9900;
+    transition: all 0.3s ease;
+}
+
+.title__link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}

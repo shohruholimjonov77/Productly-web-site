@@ -1,0 +1,66 @@
+.main__about {
+    margin-bottom: 101px;
+}
+
+.about__title {
+    width: 155px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #2F281E;
+}
+
+.about__text {
+    width: 1200px;
+    padding-top: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.about__clients {
+    padding-top: 45px;
+}
+
+.client__list {
+    @include flexbox;
+    list-style-type: none;
+}
+
+.client__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.client__desc {
+    padding-top: 48px;
+}
+
+.client__image {
+    padding-top: 23px;
+}
+
+.client__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.client__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.client__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1943EF;
+}
